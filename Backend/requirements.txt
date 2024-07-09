@@ -71,7 +71,7 @@ openpyxl==3.1.4
 opt-einsum==3.3.0
 packaging==24.1
 paddleocr==2.7.3
-paddlepaddle-gpu==2.6.1.post120
+# paddlepaddle-gpu==2.6.1.post120
 pandas==2.2.2
 pdf2docx==0.5.8
 pillow==10.3.0
