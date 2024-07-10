@@ -32,7 +32,7 @@ def create_app():
     # 注册蓝图
     app.register_blueprint(user_bp, url_prefix="/user")
     app.register_blueprint(polish_bp, url_prefix="/polish")
-    app.register_blueprint(media_bp, url_prefix="/media")
+    # app.register_blueprint(media_bp, url_prefix="/media")
     app.register_blueprint(document_bp, url_prefix="/document")
     app.register_blueprint(template_bp, url_prefix="/template")
     # 创建索引
