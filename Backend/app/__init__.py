@@ -2,7 +2,7 @@ from flask import Flask
 from .extensions import db, bcrypt, login_manager
 from .controllers.user_controller import user_bp
 from .controllers.polish_controller import polish_bp
-from .controllers.media_controller import media_bp
+# from .controllers.media_controller import media_bp
 from flask_cors import CORS
 from .controllers.document_controller import document_bp
 from .controllers.template_controller import template_bp
